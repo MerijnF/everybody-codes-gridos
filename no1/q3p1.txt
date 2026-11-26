@@ -1,0 +1,18 @@
+HEADS AA
+
+START ** CHECK ** SR
+
+CHECK ## CHECK ** RR
+CHECK #= CHECK *~ RR
+CHECK ~= CHECK *^ RR
+CHECK ~# CHECK ** RR
+CHECK ^= CHECK *^ RR
+CHECK ^# CHECK ~* RR
+CHECK #_ SWAP ** RD
+
+SWAP ** DIG ** LL
+
+DIG #_ DIG ** LL
+DIG ~_ DIG ** LL
+DIG ^_ DIG ~~ LL
+DIG __ STOP ** LL

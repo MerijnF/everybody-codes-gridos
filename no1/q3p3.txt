@@ -1,0 +1,32 @@
+HEADS AAA 
+
+START *** PREP *** SRR
+PREP *** CHECK *** SSR
+
+CHECK #=# CHECK *~* RRR
+CHECK #== CHECK #~~ RRR
+CHECK ~~# CHECK *** RRR
+CHECK ##= CHECK *** RRR
+CHECK ~#* CHECK *** RRR
+CHECK ### CHECK *** RRR
+CHECK ~~~ CHECK *** RRR
+CHECK ~~= DIGR **~ SDS
+CHECK ##_ STOP *** RRR
+CHECK #__ STOP *** RRR
+
+DIGR __~ DIGR *** RRR
+DIGR ~*~ DIGR *~* RRR
+DIGR ~*= DIGR *~~ RRR
+DIGR ~*# DIGL *** DDD
+DIGR ~__ DIGL *** DDD
+DIGR ___ UP *** UUU
+
+DIGL ~*_ DIGL *** LLL
+DIGL ~*~ DIGL *~* LLL
+DIGL __~ DIGR *** DDD
+DIGL ___ UP *** UUU
+
+UP _*_ CHECK *** DSD
+UP __~ UP *** UUU
+UP ~__ UP *** UUU
+UP ~~~ UP *** UUU 
