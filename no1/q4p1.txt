@@ -1,0 +1,13 @@
+HEADS AA 
+
+START ** GO ** SR
+
+GO #= GO ** RR
+GO == GO ** RR
+GO =| BACK |_ LL
+GO #| GO ** DD 
+GO __ STOP ** RR
+
+BACK == BACK ** LL
+BACK =| BACK ** LL
+BACK #* GO ** DD
